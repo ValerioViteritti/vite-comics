@@ -1,14 +1,18 @@
 <script>
-import AppHeader from './components/AppHeader.vue';
-import DcMain from './components/DcMain.vue';
-import AppFooter from './components/AppFooter.vue'
+import AppHeader from './components/A_AppHeader.vue';
+import HeadDcMain from './components/B_HeadDcMain.vue';
+import DcMain from './components/C_DcMain.vue';
+import FootDcMain from './components/D_FootDcMain.vue';
+import AppFooter from './components/E_AppFooter.vue'
 
 export default {
   name: 'App',
   components: {
     AppHeader,
-    AppFooter,
-    DcMain
+    HeadDcMain,
+    DcMain,
+    FootDcMain,
+    AppFooter
   }
 }
 </script>
@@ -16,7 +20,9 @@ export default {
 <template>
   <AppHeader />
   <main>
+    <HeadDcMain />
     <DcMain />
+    <FootDcMain />
   </main>
   <AppFooter />
 </template>

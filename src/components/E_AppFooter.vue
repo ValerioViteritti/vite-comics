@@ -21,7 +21,8 @@
 
 <style lang="scss" scoped>
 footer{
-    height: calc((100% / 23) * 3);
+    height: calc((100vh / 23) * 3);
+    background-color: #303030;
     div.container{
 
         width: 80%;
@@ -31,6 +32,7 @@ footer{
             justify-content: space-between;
 
             div{
+                margin: 0;
 
             }
 

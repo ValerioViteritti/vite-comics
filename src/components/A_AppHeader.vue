@@ -23,22 +23,26 @@
 
 <style lang="scss" scoped>
 header{
-    height: calc((100% / 23) * 3);
+    
 
     nav{
 
         div.container{
-            width: 80%;
+            height: calc((100vh / 23) * 3);
+            
             
 
             div.row{
+                width: 80%;
                 display: flex;
                 justify-content: space-between;
 
                 img{
+                    margin: 0;
 
                 }
                 div{
+                    margin: 0;
                     
                 }
             }
