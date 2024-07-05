@@ -36,6 +36,7 @@ header{
                 width: 80%;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
 
                 img{
                     margin: 0;
