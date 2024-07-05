@@ -65,6 +65,10 @@ div.container{
             img{
                 width: 50px;
             }
+
+            span{
+                cursor: pointer;
+            }
         }
 
         

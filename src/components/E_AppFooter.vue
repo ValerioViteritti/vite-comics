@@ -72,7 +72,7 @@ footer {
 
             button{
                 margin: 0;
-                padding: 10px;
+                padding: 14px;
                 color: white;
                 background-color: #303030;
                 border: 2px solid #0282f9;
