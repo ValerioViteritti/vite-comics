@@ -49,6 +49,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
 footer {
     height: calc((100vh / 23) * 3);
     background-color: #303030;
@@ -75,12 +76,12 @@ footer {
                 padding: 14px;
                 color: white;
                 background-color: #303030;
-                border: 2px solid #0282f9;
+                border: 2px solid $primary;
                 cursor: pointer;
             }
 
             a{
-                color: #0282f9;
+                color: $primary;
                 font-weight: bold;
             }
 

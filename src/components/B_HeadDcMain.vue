@@ -108,6 +108,8 @@
 </template>
 
 <style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
+
 div.container{
     height: 100%;
     background-color: #1c1c1c;
@@ -137,7 +139,7 @@ div.container{
 
     div#Load{
         color: white;
-        background-color: #0282f9;
+        background-color: $primary;
         text-align: center;
         margin: 20px 0;
         padding: 10px 50px;

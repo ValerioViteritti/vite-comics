@@ -47,9 +47,10 @@
 </template>
 
 <style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
 div.container{
     height: calc((100vh / 23) * 4);
-    background-color: #0282f9;
+    background-color: $primary;
 
     div.row{
         width: 80%;

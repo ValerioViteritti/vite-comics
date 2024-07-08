@@ -69,6 +69,7 @@
 </template>
 
 <style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
 header{
     
 
@@ -104,7 +105,7 @@ header{
                         align-items: center;
 
                         &:hover{
-                            border-bottom: 6px solid #0282f9;
+                            border-bottom: 6px solid $primary;
                         }
                     }
 
@@ -128,7 +129,7 @@ header{
             top: 90%;
             left: 22%;
             color: white;
-            background-color: #0282f9;
+            background-color: $primary;
             width: 200px;
             text-align: center;
             margin: 20px 0;
