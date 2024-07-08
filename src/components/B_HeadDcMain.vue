@@ -94,10 +94,13 @@
             <div class="boxCard">
                 <DcCard v-for="(list, i) in ListDc" :key="i"
                 :details="list"/>
+                
             </div>
+            
 
             
         </div>
+        <div id="Load">LOAD MORE</div>
         
     </div>
     
@@ -106,26 +109,41 @@
 
 <style lang="scss" scoped>
 div.container{
-    height: calc((100vh / 23) * 3);
+    height: 100%;
     background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 
     div.row{
         width: 80%;
         height: 100%;
         display: flex;
-        justify-content: start;
-        align-items: center;
+        justify-content: center;
+        margin: 40px 0;
+        
 
-        span{
-            margin: 0;
-            color: white;
-            font-size: 1.5rem;
-            font-weight: bold;
-
+        .boxCard{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            height: 100%;
+            width: 70%;
         }
         
 
+    }
+
+    div#Load{
+        color: white;
+        background-color: #0282f9;
+        text-align: center;
+        margin: 20px 0;
+        padding: 10px 50px;
+        cursor: pointer;
+        
+        
     }
 }
 

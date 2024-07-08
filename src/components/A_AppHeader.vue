@@ -60,6 +60,9 @@
                 </div>
             </div>
         </nav>
+        <div class="jumbotron">
+            <div class="current">CURRENT SERIES</div>
+        </div>
 
     </header>
 
@@ -112,6 +115,26 @@ header{
                 }
             }
         }
+    }
+    .jumbotron{
+        background-image: url(src/assets/jumbotron.jpg);
+        background-size: cover;
+        height: calc((100vh / 23) * 9);
+        width: 100%;
+        position: relative;
+
+        .current{
+            position: absolute;
+            top: 90%;
+            left: 22%;
+            color: white;
+            background-color: #0282f9;
+            width: 200px;
+            text-align: center;
+            margin: 20px 0;
+            padding: 10px;
+            cursor: pointer;
+            }
     }
 }
 
