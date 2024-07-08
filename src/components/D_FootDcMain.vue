@@ -186,8 +186,7 @@
     #img {
       position: relative;
       width: 600px;
-      height: 600px;
-      z-index: 0;
+      height: 500px;
 
       img {
         width: 100%;
