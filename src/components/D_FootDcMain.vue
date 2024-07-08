@@ -140,6 +140,7 @@
   height: calc((100vh / 23) * 10);
   background-image: url('../assets/footer-bg.jpg');
   background-size: cover;
+  overflow: hidden;
 
   .row {
     width: 80%;
@@ -185,16 +186,14 @@
 
     #img {
       position: relative;
-      width: 600px;
-      height: 500px;
+      width: 100%;
+      height: 100%;
 
       img {
-        width: 100%;
-        height: 100%;
+        width: 70%;
         position: absolute;
-        top: 0;
-        left: 0;
-        object-fit: cover;
+        bottom: -40%;
+        left: 20%;
       }
     }
   }
